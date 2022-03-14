@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="31.934">
+    <testcase classname="Hotel booking Functanality" name="User want To login" time="12.64">
+        <system-out><![CDATA[Given user launges the application..........................................passed
+And user enter "nizhar" valid username......................................passed
+And user enter "1234" the valid password....................................passed
+And user clicks the login button............................................passed
+Then user verifies the login is successfull.................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Hotel booking Functanality" name="User want To login 2" time="1.065">
+        <system-out><![CDATA[Given user launges the application..........................................passed
+And user enter "love" valid username........................................passed
+And user enter "143" the valid password.....................................passed
+And user clicks the login button............................................passed
+Then user verifies the login is successfull.................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Hotel booking Functanality" name="User want To login 3" time="0.996">
+        <system-out><![CDATA[Given user launges the application..........................................passed
+And user enter "yu" valid username..........................................passed
+And user enter "143" the valid password.....................................passed
+And user clicks the login button............................................passed
+Then user verifies the login is successfull.................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Hotel booking Functanality" name="User want To login 4" time="1.595">
+        <system-out><![CDATA[Given user launges the application..........................................passed
+And user enter "Technologiest" valid username...............................passed
+And user enter "J4G7D1" the valid password..................................passed
+And user clicks the login button............................................passed
+Then user verifies the login is successfull.................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Hotel booking Functanality" name="search hotel" time="1.918">
+        <system-out><![CDATA[Given application launged success fully.....................................passed
+When user select the location...............................................passed
+And user select the hotels..................................................passed
+And user select  the room type..............................................passed
+And user select the num of rooms............................................passed
+And user enter the check in date............................................passed
+And user enter the check out date...........................................passed
+And user select the adults per room.........................................passed
+And user select the children per room.......................................passed
+And user click the search button............................................passed
+Then user verifies naviagte to next page....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Hotel booking Functanality" name="user want to select hotel" time="0.845">
+        <system-out><![CDATA[Given Application launged successfully......................................passed
+When user select the hotel..................................................passed
+And user clicks the continue button.........................................passed
+Then user verifies navigate to next page....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Hotel booking Functanality" name="user want to book a hotel" time="1.261">
+        <system-out><![CDATA[Given application launged sucsessfully......................................passed
+When user enter the first name..............................................passed
+And user enter the last name................................................passed
+And user enter the billing address..........................................passed
+And user enter the credit card number.......................................passed
+And user select the credit card type........................................passed
+And user select the expirary date...........................................passed
+And user enter the cvv number...............................................passed
+And user click  the book now button.........................................passed
+Then user verifies navigate to nextpage.....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Hotel booking Functanality" name="booking confirmation" time="10.271">
+        <system-out><![CDATA[Given application launged...................................................passed
+When click my iternery button...............................................passed
+Then verified next page.....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Hotel booking Functanality" name="user book iternery" time="0.588">
+        <system-out><![CDATA[Given launge successfully...................................................passed
+When clicks the order id....................................................passed
+And clicks order id.........................................................passed
+Then user verifes successfully log out......................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
